@@ -2,7 +2,7 @@
 
 #app {
   /*max-width: 1280px;*/
-  margin: 0 auto;
+  margin: auto auto;
   padding: 2rem;
   font-weight: normal;
 }
@@ -10,12 +10,25 @@
 @media (min-width: 1024px) {
   body {
     display: flex;
+    flex-direction: column;
     place-items: center;
   }
+  
+.error {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #EF665B;
+  border-radius: 8px;
+}
 
-/*  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }*/
+.errorMsg {
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+}
 }

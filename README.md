@@ -1,35 +1,19 @@
 # wildfireFront
 
-This template should help get you started developing with Vue 3 in Vite.
+Visualize and Navigates the wildfire simulation.
+Made from the Vue scaffolding tool.
 
-## Recommended IDE Setup
+## Prerequisites
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Install [node.js](https://nodejs.org/fr) 18.3 or higher
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+## How to run
 
 ```sh
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
+Run wildfire backend.
 
-### Compile and Minify for Production
+Go to [localhost:5173](http://localhost:5173/)
 
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
